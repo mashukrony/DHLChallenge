@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JeKFuYA8fU2PW5lnPJnAZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/dhl_app_new/upload.php" DesignTimeRectangle="16, 189, 1904, 881" FullSelectorArgument="&lt;webctrl tag='BODY' /&gt;" Guid="a9e70c8d-33d1-4c53-9f19-a140c6d1ddfa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='localhost/dhl_app_new/upload.php' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="b904f3cd7290ca2abf9b6d358510ceca.png" xmlns="">0csoClajbK0ylsWotIQsqLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TakeScreenshot</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

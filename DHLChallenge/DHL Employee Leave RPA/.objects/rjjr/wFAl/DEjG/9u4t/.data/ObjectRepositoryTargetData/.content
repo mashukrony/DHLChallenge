@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BgC8vrvVcUyik98RqzFc6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/dhl_app_new/index.php" DesignTimeRectangle="8, 181, 1920, 570" FullSelectorArgument="&lt;webctrl tag='BODY' /&gt;" Guid="d00c04f3-2aab-4518-b61c-8da8c6d2d6ba" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Leave Management' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d2a81bfecf18bb58071b84b4d081a3e7.png" xmlns="">0cltBmUHZmUqbYTwgnX1cvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TakeScreenshot</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

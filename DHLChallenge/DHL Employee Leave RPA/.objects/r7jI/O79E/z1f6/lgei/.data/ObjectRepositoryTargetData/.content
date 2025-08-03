@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kCj3H1lakUaANrH3umaHuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/dhl_app_new/index.php" CVScreenId="ea8cc7d0-13ac-4550-99be-25759fc4ccaf" CvElementArea="53, 375, 207, 30" CvType="InputBox" DesignTimeRectangle="53, 376, 207, 29" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='file' class='file-input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="86cb2098-b846-400d-aee4-71b37b67144f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Leave Management' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ea8cc7d0-13ac-4550-99be-25759fc4ccaf" CvTextArea="52, 346, 133, 20" CvTextArgument="Upload Excel File" CvType="Text" DesignTimeRectangle="53, 343, 1815, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' aaname='Upload Excel File' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Upload Excel File' /&gt;" Guid="28c8c1d7-11cf-43a2-907f-e63560313f9e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1b9b29a19768fd21b9f715ac2524d582.png" xmlns="">09ZMKuiClnU-qcOKjSHL13g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

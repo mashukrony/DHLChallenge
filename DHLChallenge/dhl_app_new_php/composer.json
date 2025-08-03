@@ -1,0 +1,6 @@
+{
+    "name": "dhl_app/project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.2"
+    }
+}

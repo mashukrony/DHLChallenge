@@ -1,0 +1,337 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Enums</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.Mail.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="875.6,3438.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="585.6,3415.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:ExcelApplicationScope Password="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="552,284.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" SensitivityOperation="None" WorkbookPath="C:\Users\ASUS\Downloads\Test12(1).xlsx">
+        <ui:ExcelApplicationScope.Body>
+          <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,143.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ExcelReadRange DataTable="{x:Null}" Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="416,83.2" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" SheetName="Sheet5" />
+            </Sequence>
+          </ActivityAction>
+        </ui:ExcelApplicationScope.Body>
+      </ui:ExcelApplicationScope>
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="552,2356" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+        <TryCatch.Finally>
+          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="550.4,89.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </TryCatch.Finally>
+        <TryCatch.Try>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,2109.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="0c6a5829-6090-4c96-84bf-f049f26d16ab" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,1892.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload Excel File'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6a5829-6090-4c96-84bf-f049f26d16ab" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="localhost/dhl_app_new/index.php" CVScreenId="ea8cc7d0-13ac-4550-99be-25759fc4ccaf" ContentHash="kCj3H1lakUaANrH3umaHuQ" CvElementArea="53, 375, 207, 30" CvType="InputBox" DesignTimeRectangle="53, 376, 207, 29" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='file' class='file-input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="86cb2098-b846-400d-aee4-71b37b67144f" InformativeScreenshot="1b9b29a19768fd21b9f715ac2524d582.png" Reference="7_DpMcF1B02JUgKglaqU2g/lgeiCtQ6CUS1O8x0Z-XjGQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Leave Management' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="ea8cc7d0-13ac-4550-99be-25759fc4ccaf" CvTextArea="52, 346, 133, 20" CvTextArgument="Upload Excel File" CvType="Text" DesignTimeRectangle="53, 343, 1815, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' aaname='Upload Excel File' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Upload Excel File' /&gt;" Guid="28c8c1d7-11cf-43a2-907f-e63560313f9e" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'chrome.exe Employee'" sap:VirtualizedContainerService.HintSize="483.2,706.4" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="9dd46cac0eb7ad74e4993915f07b717b" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Employee Leave Management - Google Chrome' /&gt;">
+                    <ui:WindowScope.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,527.2" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NTypeInto ActivateBefore="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'File &amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="0c6a5829-6090-4c96-84bf-f049f26d16ab" Text="C:\Users\ASUS\Downloads\Test12(1).xlsx" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="localhost/dhl_app_new" CVScreenId="a0149b01-313c-4ddf-b0de-a87d103c7827" ContentHash="UXvtl-I1UE6yPuBNd1p1jA" CvElementArea="195, 371, 345, 26" CvType="InputBox" DesignTimeRectangle="201, 377, 318, 15" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="b9682310-e28c-43db-a503-811ff8843318" InformativeScreenshot="ebb91664eb7bda3c4a7f06d5896740b2.png" IsResponsive="True" Reference="7_DpMcF1B02JUgKglaqU2g/PqLDyy8oYEWlwATsORI2bA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="a0149b01-313c-4ddf-b0de-a87d103c7827" CvTextArea="137, 377, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 376, 54, 15" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='File &amp;amp;name:' /&gt;" Guid="a8e8f6c2-84ad-496f-b3d0-f85081450071" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Open'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6a5829-6090-4c96-84bf-f049f26d16ab" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="localhost/dhl_app_new" CVScreenId="87579ced-78c7-4b75-bac2-f05c5ae916d3" ContentHash="qOcmpUr4L0Gy2QviiJ3Zig" CvElementArea="551, 401, 89, 26" CvTextArea="579, 407, 30, 15" CvTextArgument="Open" CvType="Button" DesignTimeRectangle="551, 401, 88, 26" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" Guid="2c95b094-5d4d-4b4d-8bdf-5b403684ad09" InformativeScreenshot="b389b3eeecdebc950f702a8f09b2c12a.png" Reference="7_DpMcF1B02JUgKglaqU2g/71SOj7tBo0yc2YptnpSqxw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                          </uix:NClick>
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:WindowScope.Body>
+                  </ui:WindowScope>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6a5829-6090-4c96-84bf-f049f26d16ab" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="localhost/dhl_app_new/index.php" CVScreenId="4293d519-b182-4b51-b72e-b0ccf1a54132" ContentHash="x15TI2eee0ejKO-w9bKiiw" CvElementArea="270, 376, 63, 30" CvTextArea="283, 385, 38, 13" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="272, 378, 60, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="534d0d09-7400-4e11-a854-a2567c2f95bc" InformativeScreenshot="de899d967622c3c6e969351e82963c2c.png" Reference="7_DpMcF1B02JUgKglaqU2g/PaZAeUC21kCcaFe_aye9Ow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Leave Management' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTakeScreenshot DisplayName="Take Screenshot 'Upload complete. Succes…'" FileName="screenshot.png" FileNameMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,265.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" ScopeIdentifier="0c6a5829-6090-4c96-84bf-f049f26d16ab" Version="V4">
+                    <uix:NTakeScreenshot.Target>
+                      <uix:TargetAnchorable BrowserURL="localhost/dhl_app_new/upload.php" ContentHash="JeKFuYA8fU2PW5lnPJnAZg" DesignTimeRectangle="16, 189, 1904, 881" FullSelectorArgument="&lt;webctrl tag='BODY' /&gt;" Guid="a9e70c8d-33d1-4c53-9f19-a140c6d1ddfa" InformativeScreenshot="b904f3cd7290ca2abf9b6d358510ceca.png" Reference="7_DpMcF1B02JUgKglaqU2g/srhjaMjQnUmZw0F96lsP4w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='localhost/dhl_app_new/upload.php' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NTakeScreenshot.Target>
+                  </uix:NTakeScreenshot>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Go Back'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6a5829-6090-4c96-84bf-f049f26d16ab" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="localhost/dhl_app_new/upload.php" CVScreenId="bdd18b65-a93d-4601-ac8b-913b3f1eb976" ContentHash="PqzHsjb5v0ODn5bDKd8uMg" CvTextArea="15, 224, 58, 14" CvTextArgument="Go Back" CvType="Text" DesignTimeRectangle="16, 223, 56, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" Guid="5f946f6a-0192-491f-85dc-616d4982c57a" InformativeScreenshot="c53bd46fa7e5f3f58c4b7bea3f3afa22.png" Reference="7_DpMcF1B02JUgKglaqU2g/yOlksPz8PE6zmV56MYeYxA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='localhost/dhl_app_new/upload.php' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Test12(1).xlsx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="483.2,218.4" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0c6a5829-6090-4c96-84bf-f049f26d16ab" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="localhost/dhl_app_new/index.php" CVScreenId="e8390e7d-4f82-49ec-b85a-5f2b82532b13" ContentHash="NmOnZ4DoJkCwokkjP8_EVA" CvTextArea="66, 586, 95, 18" CvTextArgument="Test12(1).xlsx" CvType="Text" DesignTimeRectangle="68, 583, 92, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" Guid="d50e5687-beae-4c7c-bdfe-11dff32401a3" InformativeScreenshot="ded093db5de4fcea29dd7f6695d24924.png" Reference="7_DpMcF1B02JUgKglaqU2g/H2tFBp_900-qv-ZWzu7kEw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Leave Management' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="1912, -8, 1936, 1096" BrowserType="Chrome" ContentHash="-iPhbrRSqUSWhQd3dfiFMQ" IconBase64="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" InformativeScreenshot="2a9ccd940721441a09fd088a3fc79a09.jpg" Reference="7_DpMcF1B02JUgKglaqU2g/z1f69ZMvck2SHsjJ_FS1hw" Selector="&lt;html app='chrome.exe' url='http://localhost/dhl_app_new/' /&gt;" Url="http://localhost/dhl_app_new/" Version="V2" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </TryCatch.Try>
+      </TryCatch>
+      <umab:GmailApplicationCard ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Account="mashukrony012@gmail.com" DisplayName="Use Gmail" EmailAddress="mashukrony012@gmail.com" sap:VirtualizedContainerService.HintSize="552,691.2" sap2010:WorkflowViewState.IdRef="GmailApplicationCard_1" Timeout="90" UseConnectionService="False">
+        <umab:GmailApplicationCard.Body>
+          <ActivityAction x:TypeArguments="um:IMailQuickHandle">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Gmail" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="467.2,486.4" sap2010:WorkflowViewState.IdRef="Sequence_13">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <umab:SendMailX Bcc="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Gmail]" Body="Here you go!!!" BodyType="Text" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="433.6,426.4" sap2010:WorkflowViewState.IdRef="SendMailX_3" Importance="Normal" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Hi there!" To="mashukrony0012@gmail.com" UseDocumentAsBody="False">
+                <umab:SendMailX.Files>
+                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="1">
+                    <InArgument x:TypeArguments="x:String">screenshot.png</InArgument>
+                  </scg:List>
+                </umab:SendMailX.Files>
+                <umab:SendMailX.HtmlBodyFromFile>
+                  <umabh:HtmlContentArgument FilePath="{x:Null}" HtmlBody="{x:Null}">
+                    <umabh:HtmlContentArgument.RuntimeImages>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                    </umabh:HtmlContentArgument.RuntimeImages>
+                    <umabh:HtmlContentArgument.ValueMappings>
+                      <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="0" />
+                    </umabh:HtmlContentArgument.ValueMappings>
+                  </umabh:HtmlContentArgument>
+                </umab:SendMailX.HtmlBodyFromFile>
+              </umab:SendMailX>
+            </Sequence>
+          </ActivityAction>
+        </umab:GmailApplicationCard.Body>
+        <umab:GmailApplicationCard.ClientId>
+          <InArgument x:TypeArguments="x:String">
+            <Literal x:TypeArguments="x:String" Value="" />
+          </InArgument>
+        </umab:GmailApplicationCard.ClientId>
+        <umab:GmailApplicationCard.ClientSecret>
+          <InArgument x:TypeArguments="x:String">
+            <Literal x:TypeArguments="x:String" Value="" />
+          </InArgument>
+        </umab:GmailApplicationCard.ClientSecret>
+      </umab:GmailApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

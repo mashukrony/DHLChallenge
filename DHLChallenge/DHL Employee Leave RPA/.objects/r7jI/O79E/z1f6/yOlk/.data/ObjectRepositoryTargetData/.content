@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PqzHsjb5v0ODn5bDKd8uMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/dhl_app_new/upload.php" CVScreenId="bdd18b65-a93d-4601-ac8b-913b3f1eb976" CvTextArea="15, 224, 58, 14" CvTextArgument="Go Back" CvType="Text" DesignTimeRectangle="16, 223, 56, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" Guid="5f946f6a-0192-491f-85dc-616d4982c57a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='localhost/dhl_app_new/upload.php' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c53bd46fa7e5f3f58c4b7bea3f3afa22.png" xmlns="">05eno4QWY_EivG2S6NoE-kQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NmOnZ4DoJkCwokkjP8_EVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/dhl_app_new/index.php" CVScreenId="e8390e7d-4f82-49ec-b85a-5f2b82532b13" CvTextArea="66, 586, 95, 18" CvTextArgument="Test12(1).xlsx" CvType="Text" DesignTimeRectangle="68, 583, 92, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" Guid="d50e5687-beae-4c7c-bdfe-11dff32401a3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Employee Leave Management' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ded093db5de4fcea29dd7f6695d24924.png" xmlns="">0ZHbAgKq0Vk-PogCx4rsnUw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

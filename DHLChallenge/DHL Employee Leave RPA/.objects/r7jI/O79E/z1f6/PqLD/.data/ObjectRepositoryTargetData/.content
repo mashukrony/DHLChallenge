@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UXvtl-I1UE6yPuBNd1p1jA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/dhl_app_new" CVScreenId="a0149b01-313c-4ddf-b0de-a87d103c7827" CvElementArea="195, 371, 345, 26" CvType="InputBox" DesignTimeRectangle="201, 377, 318, 15" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="b9682310-e28c-43db-a503-811ff8843318" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a0149b01-313c-4ddf-b0de-a87d103c7827" CvTextArea="137, 377, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 376, 54, 15" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='File &amp;amp;name:' /&gt;" Guid="a8e8f6c2-84ad-496f-b3d0-f85081450071" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ebb91664eb7bda3c4a7f06d5896740b2.png" xmlns="">0xm4qu0uvL0GV-aVL2wRMLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
