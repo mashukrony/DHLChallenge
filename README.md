@@ -6,7 +6,8 @@
 ---
 
 ✨ Key Features
-• *Leave Tracking Website**: Log employee leave requests (type, dates, status).  
+
+• *Leave Tracking Website*: Log employee leave requests (type, dates, status).  
 • *RPA Automation*:  
   - Upload Excel files → Remove duplicates → Generate reports.  
   - Auto-send progress summaries via email (success/failure stats).  
@@ -15,6 +16,7 @@
 ---
 
 ## **🛠️ Technologies**  
+
 - **RPA**: UiPath Studio  
 - **Backend**: XAMPP (Apache, MySQL), PHP  
 - **Database**: MySQL 
