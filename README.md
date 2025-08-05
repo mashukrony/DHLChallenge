@@ -8,6 +8,7 @@
 ✨ Key Features
 
 • *Leave Tracking Website*: Log employee leave requests (type, dates, status).  
+
 • *RPA Automation*:  
   - Upload Excel files → Remove duplicates → Generate reports.  
   - Auto-send progress summaries via email (success/failure stats).  
@@ -72,14 +73,6 @@ CREATE TABLE uploaded_files (
    - Captures screenshot report → Emails HR.  
 3. **Track Leaves**: View all records in the web dashboard.  
 
----
-
-## **📸 Screenshots**  
-| Leave Dashboard | RPA Workflow | Email Report |  
-|-----------------|--------------|--------------|  
-| ![Dashboard](./assets/dashboard.png) | ![UiPath](./assets/uipath.png) | ![Email](./assets/email.png) |  
-
-*(Add actual screenshots to an `/assets/` folder.)*  
 
 ---
 
