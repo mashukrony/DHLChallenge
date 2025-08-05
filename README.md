@@ -82,10 +82,6 @@ CREATE TABLE uploaded_files (
 - **Error Reduction**: Near-zero duplicate entries.  
 - **Scalable**: Adaptable to other HR workflows (attendance, payroll).  
 
----
-
-## **📜 License**  
-MIT © [Mashuk Al Hossain](https://github.com/mashukrony)  
 
 ---
 
